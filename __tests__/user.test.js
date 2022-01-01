@@ -1,6 +1,7 @@
 import User from './../src/js/user.js'
 
 describe('User', () => {
+  let user;
   beforeEach(() => {
     user = new User(26);
   });
