@@ -41,7 +41,7 @@ describe('User.yearsToLive()', () => {
   test("Should return a string, letting the user know they're in their last year of life", () => {
     expect(user.yearsToLive(26)).toEqual("You just might be in your final year of life, but don't take my word for it! Live it up!");
   });
-  test("Should return a string, letting the user know they are older than their average life expectancy", () => {
+  test("Should return a string, letting the user know they're older than their average life expectancy", () => {
     expect(user.yearsToLive(24)).toEqual("Congratulations! You've made it 2 years passed your average life expectancy!")
   });
 });
