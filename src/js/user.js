@@ -21,7 +21,7 @@ export default class User {
 
   yearsToLive(avgLife) {
     const yearsLeft = Math.floor(avgLife - this.earthAge);
-    return yearsLeft;
+    return `It looks like you have about ${yearsLeft} more years left in you! Go get em'!`
   }
   // yearsToLive(avgLife) {
   //   const yearsLeft = Math.floor(avgLife - this.earthAge);
