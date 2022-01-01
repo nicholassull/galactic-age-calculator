@@ -1,4 +1,4 @@
-import User from './../src/js/user.js'
+import {User} from './../src/js/user.js'
 
 describe('User', () => {
   let user;

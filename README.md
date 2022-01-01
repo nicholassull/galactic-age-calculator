@@ -1,32 +1,37 @@
-# _Title_
+# _Galactic Age Calculator_
 
 #### By _**Nick Sullivan**_
 
-#### _Short description_
+#### _A simple web application to let you know how old you are based on the years of different planets, and how long you might have left to live._
 
 ## Technologies Used
 
-* __
+* _HTML_
+* _Bootstrap_
+* _JavaScript_
+* _Node.js_
+* _WebPack_
+* _ESLint_
 
 ## Description
 
-__
+_This application allows the user to create a User object, which can then be used to return the user's age according to the years of the 4 other planets. The user can also use the yearsToLive() method to see how many years they have left to live based on the average life expectancy the user passes into the function._
 
 ## Setup Instructions
 
 * _Open your terminal and navigate to the folder you'd like to download the files into._
 * _Run the command below_
-> git clone https://github.com/nicholassull/portfolio-landing
+> git clone https://github.com/nicholassull/galactic-age-calculator
 * _Open index.html_
 
 
 ## Known Bugs
 
-* _No known bugs at this time._
+* _The application will not yet allow the user to create their own User object._
 
 ## License
 
-Copyright (c) _10/27/2021_ _by Nick Sullivan_
+Copyright (c) _01/01/2022_ _by Nick Sullivan_
 
 
 _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
