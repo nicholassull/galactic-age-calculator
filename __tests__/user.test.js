@@ -32,9 +32,6 @@ describe('User.yearsToLive()', () => {
   beforeEach(() => {
     user = new User(26);
   });
-  // test("Should return the number of years left in the user's life based on demographic average", () => {
-  //   expect(user.yearsToLive(85)).toEqual(59);
-  // });
   test("Should return a string, letting the user know how many years they have left", () => {
     expect(user.yearsToLive(85)).toEqual("It looks like you have about 59 more years left in you! Go get em'!");
   });
