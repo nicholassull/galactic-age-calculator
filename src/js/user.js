@@ -21,7 +21,11 @@ export default class User {
 
   yearsToLive(avgLife) {
     const yearsLeft = Math.floor(avgLife - this.earthAge);
-    return `It looks like you have about ${yearsLeft} more years left in you! Go get em'!`
+    if (yearsLeft === 0) {
+      return  "You just might be in your final year of life, but don't take my word for it! Live it up!"
+    } else {
+      return `It looks like you have about ${yearsLeft} more years left in you! Go get em'!`
+    }
   }
   // yearsToLive(avgLife) {
   //   const yearsLeft = Math.floor(avgLife - this.earthAge);
