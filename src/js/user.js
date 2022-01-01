@@ -6,4 +6,8 @@ export default class User {
   mercuryAge() {
     return Math.floor(this.earthAge / 0.24);
   }
+
+  venusAge() {
+    return Math.floor(this.earthAge / 0.62);
+  }
 }
