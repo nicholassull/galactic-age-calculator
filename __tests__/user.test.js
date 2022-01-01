@@ -10,6 +10,6 @@ describe('User', () => {
   });
 
   test('Should return user age in Mercury years', () => {
-
+    expect(user.mercuryAge()).toEqual(108)
   });
 });
