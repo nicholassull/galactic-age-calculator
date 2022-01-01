@@ -25,4 +25,8 @@ describe('User', () => {
   test('Should return user age in Jupiter years', () => {
     expect(user.jupiterAge()).toEqual(2);
   });
+
+  test("Should return the number of years left in the user's life based on demographic average", () => {
+    expect(user.yearsToLife(85)).toEqual(59);
+  });
 });
