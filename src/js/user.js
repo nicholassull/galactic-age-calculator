@@ -14,4 +14,8 @@ export default class User {
   marsAge() {
     return Math.floor(this.earthAge / 1.88);
   }
+
+  jupiterAge() {
+    return Math.floor(this.earthAge / 11.86);
+  }
 }
