@@ -22,7 +22,20 @@ _This application allows the user to create a User object, which can then be use
 * _Open your terminal and navigate to the folder you'd like to download the files into._
 * _Run the command below_
 > git clone https://github.com/nicholassull/galactic-age-calculator
-* _Open index.html_
+* _Navigate to the root directory of the project in your terminal._
+* _Run the commands bellow, allowing them time to complete._
+> npm install
+> npm run build
+> npm run start
+* _Once those have completed, a new webpage will open up. Right click on the webpage and click 'Inspect' then select the 'Console' tab._
+* _In the console, enter the command below, replacing 'age' with your age._
+> let newUser = window.user(age);
+* _Use the different commands displayed on the homepage to see your age in different planetary years or to find out how long you might have left on this planet._
+
+### Test Instructions
+* _To run the different tests found in the tests folder, run the command bellow in the terminal._
+> npm run test
+
 
 
 ## Known Bugs
