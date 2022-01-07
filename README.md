@@ -40,7 +40,7 @@ _This application allows the user to create a User object, which can then be use
 
 ## Known Bugs
 
-* _The application will not yet allow the user to create their own User object._
+* _No known bugs._
 
 ## License
 
